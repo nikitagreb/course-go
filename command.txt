@@ -1,0 +1,2 @@
+docker build -t my-golang-app .
+docker run -it -v src:/go/src --rm --name my-running-app my-golang-app
